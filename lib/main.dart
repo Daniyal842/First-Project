@@ -50,41 +50,128 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
+              SizedBox(
+                height: 10,
+              ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  SizedBox(
-                    width: 8,
-                  ),
-                  Icon(Icons.home),
-                  SizedBox(
-                    width: 65,
-                  ),
-                  Icon(Icons.video_camera_back),
-                  SizedBox(
-                    width: 65,
-                  ),
-                  Icon(Icons.group),
-                  SizedBox(
-                    width: 65,
-                  ),
                   CircleAvatar(
                     child: Icon(
-                      Icons.account_box,
-                      color: Colors.black,
+                      Icons.home,
+                      color: Colors.white,
                     ),
-                    backgroundColor: Colors.white,
+                    backgroundColor: Colors.black,
                   ),
-                  SizedBox(
-                    width: 65,
-                  ),
+                  Icon(Icons.video_camera_back),
+                  Icon(Icons.group),
                   Icon(Icons.notification_add),
-                  SizedBox(
-                    width: 65,
-                  ),
-                  Icon(Icons.menu)
+                  Icon(Icons.account_box),
+                  Icon(Icons.menu),
                 ],
               ),
               SizedBox(
+                height: 10,
+              ),
+              Container(
+                height: 2,
+                width: 5000,
+                color: Colors.grey,
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                children: [
+                  CircleAvatar(
+                    child: Icon(
+                      Icons.account_circle_rounded,
+                      color: Colors.blue,
+                      size: 40,
+                    ),
+                    backgroundColor: Colors.grey,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    height: 30,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      color: Colors.white,
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Whats' on your mind?",
+                        style: TextStyle(color: Colors.grey),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 125,
+                  ),
+                  Icon(Icons.photo,size: 20,),
+                ],
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Container(
+                height: 1,
+                width: 5000,
+                color: Colors.grey,
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                      height: 150,
+                      width: 80,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.indigoAccent,
+                      ),
+                      child: Icon(Icons.add,size: 50,)
+                  ),
+                  Container(
+                      height: 150,
+                      width: 80,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.indigoAccent,
+                      ),
+                  ),
+                  Container(
+                      height: 150,
+                      width: 80,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.indigoAccent,
+                      ),
+                  ),
+                  Container(
+                      height: 150,
+                      width: 80,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.indigoAccent,
+                      ),
+                  ),
+                  Container(
+                      height: 150,
+                      width: 80,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.indigoAccent,
+                      ),
+                  ),
+                ],
+              )
+              /*SizedBox(
                 height: 20,
               ),
               Text(
@@ -188,7 +275,7 @@ class MyApp extends StatelessWidget {
                 child: Center(
                   child: Text('SignUp'),
                 ),
-              ),
+              ),*/
             ],
           ),
         ),
