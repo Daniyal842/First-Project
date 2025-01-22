@@ -47,8 +47,7 @@ class MyApp extends StatelessWidget {
           ],
         ),
         backgroundColor: Colors.blueGrey,
-        body: Center(
-          child: SingleChildScrollView(
+        body: SingleChildScrollView(
             child: Column(
               children: [
                 SizedBox(
@@ -74,10 +73,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 10,
                 ),
-                Container(
-                  height: 1,
-                  width: 5000,
-                  color: Colors.grey,
+                Divider(
+                  thickness: 2,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -121,10 +119,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 10,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -135,8 +132,8 @@ class MyApp extends StatelessWidget {
                     // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
-                          height: 100,
-                          width: 60,
+                          height: 150,
+                          width: 90,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             color: Colors.indigoAccent,
@@ -149,121 +146,1232 @@ class MyApp extends StatelessWidget {
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.grey,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("1",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 1"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.greenAccent,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7) ,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("2",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 2"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.yellowAccent,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("3",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 3"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.deepPurple,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("4",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 4"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.cyan,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("5",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 5"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.green,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("6",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 6"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.deepOrange,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("7",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 7"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.teal,
                         ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("8",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 8"),
+                            ],
+                          ),
+                        ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.pink,
                         ),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Container(
-                        height: 100,
-                        width: 60,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.amber,
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("9",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 9"),
+                            ],
+                          ),
                         ),
                       ),
                       SizedBox(
                         width: 10,
                       ),
                       Container(
-                        height: 100,
-                        width: 60,
+                        height: 150,
+                        width: 90,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          color: Colors.blueAccent,
+                          color: Colors.amber,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("10",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 10"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrangeAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("11",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 11"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.grey,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("12",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 12"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.greenAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7) ,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("13",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 13"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.yellowAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("14",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 14"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepPurple,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("15",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 15"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.cyan,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("16",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 16"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.green,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("17",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 17"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrange,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("18",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 18"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.teal,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("19",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 19"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.pink,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("20",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 20"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.amber,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("21",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 21"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrangeAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("22",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 22"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.grey,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("23",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 23"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.greenAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7) ,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("24",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 24"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.yellowAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("25",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 25"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepPurple,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("26",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 26"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.cyan,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("27",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 27"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.green,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("28",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 28"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrange,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("29",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 29"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.teal,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("30",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 30"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.pink,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("31",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 31"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.amber,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("32",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 32"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrangeAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("33",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 33"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.grey,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("34",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 34"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.greenAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7) ,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("35",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 35"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.yellowAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("36",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 36"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepPurple,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("37",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 37"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.cyan,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("38",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 38"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.green,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("39",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 39"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrange,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("40",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 40"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.teal,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("41",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 41"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.pink,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("42",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 42"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.amber,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("43",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 43"),
+                            ],
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Container(
+                        height: 150,
+                        width: 90,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          color: Colors.deepOrangeAccent,
+                        ),
+                        child: Padding(
+                          padding: EdgeInsets.all(7),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueAccent,
+                                radius: 23,
+                                child: CircleAvatar(
+                                  child: Text("44",style: TextStyle(fontSize: 30),),
+                                ),
+                              ),
+                              Spacer(),
+                              Text("User 44"),
+                            ],
+                          ),
                         ),
                       ),
                     ],
@@ -272,10 +1380,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 10,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -333,10 +1440,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -394,10 +1500,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -455,10 +1560,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -516,10 +1620,9 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  height: 2,
-                  width: 5000,
-                  color: Colors.white70,
+                Divider(
+                  thickness: 3,
+                  color: Colors.white30,
                 ),
                 SizedBox(
                   height: 10,
@@ -578,7 +1681,6 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
-        ),
       ),
     );
   }
