@@ -86,11 +86,8 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
-                    child: Icon(
-                      Icons.account_circle_rounded,
-                      color: Colors.blue,
-                      size: 40,
-                    ),
+                    radius: 30,
+                    backgroundImage: AssetImage('assets/Pick 1.jpg'),
                     backgroundColor: Colors.grey,
                   ),
                   SizedBox(
@@ -115,7 +112,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    width: 125,
+                    width: 100,
                   ),
                   Icon(
                     Icons.photo,
@@ -168,12 +165,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "1",
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 2.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -207,12 +200,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "2",
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 3.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -246,13 +235,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "3",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 4.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -286,12 +270,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "4",
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 5.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -325,13 +305,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "5",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 11.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -365,13 +340,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "6",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 12.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -405,13 +375,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "7",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage("assets/Pick 13.jpg"),
                               ),
                             ),
                             Spacer(),
@@ -445,13 +410,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "8",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 14.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -485,13 +445,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "9",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 15.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -525,13 +480,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "10",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 16.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -565,13 +515,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "11",
-                                  style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 17.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -605,12 +550,8 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "12",
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 18.jpg'),
                               ),
                             ),
                             Spacer(),
@@ -644,14 +585,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "13",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 19.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 13"),
+                            Text(
+                              "User 13",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -675,14 +620,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "14",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 20.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 14"),
+                            Text(
+                              "User 14",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -706,14 +655,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "15",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 21.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 15"),
+                            Text(
+                              "User 15",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -737,14 +690,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "16",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 22.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 16"),
+                            Text(
+                              "User 16",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -768,14 +725,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "17",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 23.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 17"),
+                            Text(
+                              "User 17",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -799,14 +760,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "18",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 24.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 18"),
+                            Text(
+                              "User 18",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -830,14 +795,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "19",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 25.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 19"),
+                            Text(
+                              "User 19",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -861,14 +830,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "20",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 26.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 20"),
+                            Text(
+                              "User 20",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -892,14 +865,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "21",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 27.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 21"),
+                            Text(
+                              "User 21",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -923,14 +900,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "22",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 28.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 22"),
+                            Text(
+                              "User 22",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -954,14 +935,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "23",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 29.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 23"),
+                            Text(
+                              "User 23",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -985,14 +970,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "24",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 30.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 24"),
+                            Text(
+                              "User 24",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1016,14 +1005,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "25",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 31.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 25"),
+                            Text(
+                              "User 25",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1047,14 +1040,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "26",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 32.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 26"),
+                            Text(
+                              "User 26",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1078,14 +1075,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "27",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 33.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 27"),
+                            Text(
+                              "User 27",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1109,14 +1110,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "28",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 34.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 28"),
+                            Text(
+                              "User 28",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1140,14 +1145,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "29",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 35.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 29"),
+                            Text(
+                              "User 29",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1171,14 +1180,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "30",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 36.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 30"),
+                            Text(
+                              "User 30",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1202,14 +1215,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "31",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 37.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 31"),
+                            Text(
+                              "User 31",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1233,14 +1250,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "32",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 38.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 32"),
+                            Text(
+                              "User 32",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1264,14 +1285,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "33",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 39.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 33"),
+                            Text(
+                              "User 33",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1295,14 +1320,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "34",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 40.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 34"),
+                            Text(
+                              "User 34",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1326,14 +1355,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "35",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 41.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 35"),
+                            Text(
+                              "User 35",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1357,14 +1390,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "36",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 1.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 36"),
+                            Text(
+                              "User 36",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1388,14 +1425,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "37",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 6.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 37"),
+                            Text(
+                              "User 37",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1419,14 +1460,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "38",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 7.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 38"),
+                            Text(
+                              "User 38",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1450,14 +1495,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "39",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 8.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 39"),
+                            Text(
+                              "User 39",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1481,14 +1530,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "40",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 9.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 40"),
+                            Text(
+                              "User 40",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1512,14 +1565,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "41",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 10.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 41"),
+                            Text(
+                              "User 41",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1543,14 +1600,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "42",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 11.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 42"),
+                            Text(
+                              "User 42",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1574,14 +1635,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "43",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 12.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 43"),
+                            Text(
+                              "User 43",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1605,14 +1670,18 @@ class MyApp extends StatelessWidget {
                               backgroundColor: Colors.blueAccent,
                               radius: 23,
                               child: CircleAvatar(
-                                child: Text(
-                                  "44",
-                                  style: TextStyle(fontSize: 30),
-                                ),
+                                backgroundImage:
+                                    AssetImage('assets/Pick 13.jpg'),
                               ),
                             ),
                             Spacer(),
-                            Text("User 44"),
+                            Text(
+                              "User 44",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 3,
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -1633,19 +1702,11 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 22,
+                    radius: 24,
                     backgroundColor: Colors.indigo,
                     child: CircleAvatar(
-                      radius: 20,
-                      backgroundColor: Colors.green,
-                      child: Text(
-                        "D",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      radius: 22,
+                      backgroundImage: AssetImage('assets/Pick 6.jpg'),
                     ),
                   ),
                   SizedBox(
@@ -1697,19 +1758,11 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 22,
+                    radius: 24,
                     backgroundColor: Colors.indigo,
                     child: CircleAvatar(
-                      radius: 20,
-                      backgroundColor: Colors.lime,
-                      child: Text(
-                        "H",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      radius: 22,
+                      backgroundImage: AssetImage('assets/Pick 7.jpg'),
                     ),
                   ),
                   SizedBox(
@@ -1767,15 +1820,7 @@ class MyApp extends StatelessWidget {
                     backgroundColor: Colors.indigo,
                     child: CircleAvatar(
                       radius: 20,
-                      backgroundColor: Colors.deepOrange,
-                      child: Text(
-                        "A",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      backgroundImage: AssetImage('assets/Pick 8.jpg'),
                     ),
                   ),
                   SizedBox(
@@ -1833,15 +1878,7 @@ class MyApp extends StatelessWidget {
                     backgroundColor: Colors.indigo,
                     child: CircleAvatar(
                       radius: 20,
-                      backgroundColor: Colors.purple,
-                      child: Text(
-                        "W",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      backgroundImage: AssetImage('assets/Pick 9.jpg'),
                     ),
                   ),
                   SizedBox(
@@ -1899,15 +1936,7 @@ class MyApp extends StatelessWidget {
                     backgroundColor: Colors.indigo,
                     child: CircleAvatar(
                       radius: 20,
-                      backgroundColor: Colors.teal,
-                      child: Text(
-                        "U",
-                        style: TextStyle(
-                          fontSize: 25,
-                          color: Colors.white70,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      backgroundImage: AssetImage('assets/Pick 10.jpg'),
                     ),
                   ),
                   SizedBox(
