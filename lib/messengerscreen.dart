@@ -33,38 +33,41 @@ class Messengerscreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  height: 35,
-                  width: 450,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      color: Colors.white70),
-                  child: Row(
-                    children: [
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Icon(Icons.search),
-                      SizedBox(
-                        width: 90,
-                      ),
-                      Text(
-                        "Search Here",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w500,
-                          fontStyle: FontStyle.italic,
-                          color: Colors.grey,
-                          letterSpacing: 10,
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 35,
+                    width: 450,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(40),
+                        color: Colors.white70),
+                    child: Row(
+                      children: [
+                        SizedBox(
+                          width: 10,
                         ),
-                      ),
-                    ],
+                        Icon(Icons.search),
+                        SizedBox(
+                          width: 90,
+                        ),
+                        Text(
+                          "Search Here",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w500,
+                            fontStyle: FontStyle.italic,
+                            color: Colors.grey,
+                            letterSpacing: 10,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
             SizedBox(
               height: 20,
@@ -354,7 +357,7 @@ class Messengerscreen extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(5),
                     child: Column(
-                      children: [
+                       children: [
                         CircleAvatar(
                           child: Icon(
                             Icons.wechat_sharp,
