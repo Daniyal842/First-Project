@@ -1,3 +1,4 @@
+import 'package:firstproject/messengerscreen.dart';
 import 'package:flutter/material.dart';
 
 class FaceBookHomeScreen extends StatelessWidget {
@@ -38,7 +39,18 @@ class FaceBookHomeScreen extends StatelessWidget {
           SizedBox(
             width: 10,
           ),
-          Icon(Icons.message_rounded),
+          //Icon(Icons.message_rounded),
+          IconButton(
+            icon: Icon(Icons.message_rounded),
+            onPressed: (){
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context)=>Messengerscreen()
+                ),
+              );
+            },
+          ),
           SizedBox(
             width: 8,
           ),
@@ -170,8 +182,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 2.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 2.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -209,8 +220,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 3.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 3.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -248,8 +258,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 4.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 4.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -287,8 +296,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 5.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 5.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -326,8 +334,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 11.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 11.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -365,8 +372,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 12.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 12.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -404,8 +410,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage("assets/Pick 13.jpg"),
+                              backgroundImage: AssetImage("assets/Pick 13.jpg"),
                             ),
                           ),
                           Spacer(),
@@ -443,8 +448,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 14.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 14.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -482,8 +486,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 15.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 15.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -521,8 +524,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 16.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 16.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -560,8 +562,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 17.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 17.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -599,8 +600,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 18.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 18.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -638,8 +638,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 19.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 19.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -677,8 +676,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 20.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 20.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -716,8 +714,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 21.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 21.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -755,8 +752,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 22.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 22.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -794,8 +790,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 23.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 23.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -833,8 +828,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 24.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 24.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -872,8 +866,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 25.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 25.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -911,8 +904,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 26.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 26.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -950,8 +942,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 27.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 27.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -989,8 +980,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 28.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 28.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1028,8 +1018,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 29.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 29.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1067,8 +1056,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 30.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 30.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1106,8 +1094,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 31.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 31.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1145,8 +1132,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 32.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 32.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1184,8 +1170,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 33.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 33.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1223,8 +1208,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 34.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 34.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1262,8 +1246,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 35.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 35.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1301,8 +1284,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 36.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 36.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1340,8 +1322,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 37.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 37.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1379,8 +1360,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 38.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 38.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1418,8 +1398,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 39.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 39.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1457,8 +1436,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 40.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 40.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1496,8 +1474,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 41.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 41.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1535,8 +1512,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 1.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 1.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1574,8 +1550,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 6.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 6.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1613,8 +1588,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 7.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 7.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1652,8 +1626,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 8.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 8.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1691,8 +1664,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 9.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 9.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1730,8 +1702,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 10.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 10.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1769,8 +1740,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 11.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 11.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1808,8 +1778,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 12.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 12.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -1847,8 +1816,7 @@ class FaceBookHomeScreen extends StatelessWidget {
                             backgroundColor: Colors.blueAccent,
                             radius: 23,
                             child: CircleAvatar(
-                              backgroundImage:
-                              AssetImage('assets/Pick 13.jpg'),
+                              backgroundImage: AssetImage('assets/Pick 13.jpg'),
                             ),
                           ),
                           Spacer(),
@@ -2186,4 +2154,3 @@ class FaceBookHomeScreen extends StatelessWidget {
     );
   }
 }
-
